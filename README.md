@@ -1,17 +1,13 @@
-# DIO - Trilha Java Básico
-www.dio.me
+# DESAFIO DE PROJETO - CONTA BANCO
 
-#### Autores
-- [Gleyson Sampaio](https://github.com/glysns)
+Este projeto foi elaborado com intuíto executar o desafio de projeto proposto pelo  professor [Gleyson Sampaio](https://github.com/glysns), onde foi possível aplicar os conhecimentos da sintaxe Java adiquiridos até o momento no  bootcamp **Santander 2024 - Backend com Java**, em parceria com a [DIO](https://web.dio.me/).
 
-## Sintaxe - Desafio
+## Sintaxe - Desafio de Projeto
 
-Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
+1. Foi criado o projeto `conta-banco` que recebe dados via terminal;
+2. Dentro do projeto, foi criado a classe `ContaTerminal.java` com o código do programa.
 
-1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
-
-###### Revise sobre regras de declaração de variáveis
+###### Regras de declaração de variáveis
 
 | Atributo  | Tipo     | Exemplo   
 | --------- | ---------| ------- 
@@ -20,19 +16,13 @@ Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o
 | Nome Cliente | Texto    | MARIO ANDRADE
 | Saldo | Decimal |237.48
 
+3. Após todos os dados serem inseridos, o sistema exibe uma mensagem contendo todas as informações da conta, conforme exemplo abaixo:
 
-###### Revise sobre terminal, main args e a classe Scanner
-2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+*"Olá `MARIO ANDRADE`, obrigado por criar uma conta em nosso banco! Sua agência é `067-8` e sua conta `1021`. Seu saldo no valor de R$ `237.48` já está disponível para saque.".*
 
-* Programa: "Por favor, digite o número da conta !"
-* Usuário: 1021 *(depois ENTER para o próximo campo)* 
 
-###### Revise sobre concatenação e classe String com método concat
+Obs: Os valores destacados serão os atributos fornecidos pelo usuário, por este motivo irão mudar de acordo com os dados fornecidos para o programa. 
 
-3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
 
-*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
-
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
 
 
